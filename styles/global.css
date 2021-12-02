@@ -1,0 +1,26 @@
+/* Light Theme */
+:root {
+    --background-color: white;
+    --link-color: red;
+    --text-color: black;
+}
+
+
+
+body {
+    font-family: Arial, Helvetica;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:focus,
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
